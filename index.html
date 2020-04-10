@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>도구와 기계의 원리: 인쇄편</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="animate.css">
+	<script type="text/javascript" src="wow.min.js"></script><script> new WOW().init(); </script>
+
+
+
+	<style type="text/css">
+		html{
+			font-family: 'Noto Sans KR', sans-serif; 
+			font-weight: 400;
+		scroll-behavior: smooth;
+		} 
+		header, body, h2, img, p, ol, li{margin: 0; }
+		header{
+			background-image: url(cmykid.png);
+		    background-size: cover;
+		    height: 780px; padding-top: 60px;
+
+	
+		}
+		ol{
+			display: block;
+			padding: 3px;
+			width: 80px; height: 80px;
+		}
+
+		li{ 
+			display: block;
+			padding-bottom: 5px;
+			width: 80px; height: 80px;
+
+			}
+
+		h1{
+			text-align: center;}
+		h2{
+			font-family: 'Noto Sans KR', sans-serif; 
+		    font-weight: 700; font-size: 4em; 
+		    text-align: left; line-height: 1.3em;
+		    margin: auto; margin-bottom: 40px;
+		    margin-top: 200px;}
+		section{
+			width: 770px; margin: auto; 
+			text-align: center; 
+			padding-bottom: 40px; padding-top: 40px;
+		}
+		.h2{
+			font-family: 'Noto Sans KR', sans-serif; 
+		    font-weight: 700; font-size: 4em; 
+		    text-align: left; line-height: 1.3em;
+		    margin: auto; margin-bottom: 40px;
+		    }
+		section{
+			display:block;
+			width: 770px; margin: auto; 
+			text-align: center; 
+			padding-bottom: 40px; padding-top: 40px;
+
+		}
+		audio{
+			display: inline-block;  
+			width: 780px;
+			align-content: center;
+		}
+		img{
+			display: inline-block;
+			width: 95%; margin-bottom: 20px; 
+			margin: auto;
+		}		
+		footer{
+			margin: auto; 
+			padding: 30px;
+			margin-top: 150px; 
+			text-align: center; 
+	        font-family: 'Noto Sans KR', sans-serif;
+	        font-weight: 300; color:grey;
+		    font-size: .9em; 
+		    background: linear-gradient(to bottom, white 5%, lightgrey 80%); 
+		}
+
+		footer a{
+			display: inline-block; border-bottom: none;
+			color: grey; text-decoration: none;
+			width: 100%
+
+		}
+		footer a:hover{
+			border-bottom: none;
+			color: white; text-decoration: none;
+			transition: all .09s;
+
+		}
+
+		p{
+			text-align: left; margin: auto; margin-bottom: 20px;
+			line-height: 1.5;font-family: 'Noto Sans KR', sans-serif; 
+		    font-weight: 700; font-size: 4em; 
+		    font-size: 1.25em; font-weight: 400;
+		    word-spacing: -.05px; letter-spacing: -.6px}
+		a{
+			display: inline-block;
+			color: #8593AE; text-decoration: none;
+			background-color: grey
+			width: 100%
+		}
+		a:hover{
+			display: inline-block;
+			color: #87C488; border-bottom: solid;
+			transition: all .09s;
+		}
+
+		head style section a{
+			display: inline-block; border-bottom: none;
+			width: 170px; height: 170px;
+			
+		}
+
+		head style section a:hover{
+			display: inline-block; border-bottom: none;
+			transition: all .09s;
+			width: 80px; height: 80px;
+		}
+
+		em{}
+		strong{}
+
+		.sticky{
+			position: -webkit-sticky;
+			position: sticky; top: 160px;
+		}
+        .titleabc{
+        	display: block;
+        	text-align: center
+        }
+        .onlycontainer{
+        	display: flex; max-width: 700px;
+        	justify-content: space-around;
+        	margin: auto; text-align: justify;
+        }
+        .onlyitem{
+        	flex-basis: 400px; display: inline-block;
+          	margin-left: 10px; margin-right: 10px;
+
+        }
+        .justfyalign{
+        	font-family: 'Noto Sans KR', sans-serif; 
+		    font-weight: 700; font-size: 4em; 
+        	text-align: justify; 
+        	line-height: 1.5;
+		    font-size: 1.25em; font-weight: 400;
+		    word-spacing: -.05px; letter-spacing: -.6px;
+		    float: right;
+		}
+		.centeralign{
+			font-family: 'Noto Sans KR', sans-serif; 
+		    font-weight: 700; font-size: 4em; 
+			text-align: center; line-height: 1.5;
+		    font-size: 1.25em; font-weight: 400;
+		    word-spacing: -.05px; letter-spacing: -.6px
+		}
+		.containers{
+			display: flex;
+			margin: auto;
+			align-content: stretch;
+		}
+		.containeritemsimg{
+			display: flex; 
+			margin-bottom: 20px;
+			margin-top: 20px;
+
+		}
+		.containeritemstype{
+			display: flex; display: inline-block;
+			font-family: 'Noto Sans KR', sans-serif;  
+		    font-weight: 400; font-size: 1.1em; 
+		    word-spacing: -.06px; letter-spacing: -.6;
+		    flex-basis: 500px; 
+		    text-align: center; align-items: baseline;
+		}
+
+		.ex{
+			font-family: 'Noto Sans KR', sans-serif; 
+		    font-weight: 700; font-size: 4em; 
+		    font-weight: 400; font-size: .92em; 
+		    text-align: center; margin: auto;
+
+		}			
+       .etcc{
+        	font-family: 'Noto Sans KR', sans-serif; 
+		    font-weight: 400; font-size: .92em; 
+		    text-align: left; margin: auto;
+        }
+		.bg1{
+			display: block;
+			background-image: url(dot.png);
+			background-repeat: no-repeat;
+			width: cover;
+			height: 520px;
+			margin-left: px;
+			background-attachment: scroll;}
+
+	
+</style>
+</head>
+
+<head>
+<style type="text/css">
+
+		a#d-1{
+			display: inline-block; border-bottom: none;
+			background: url('p.png') no-repeat;
+			width: 80px; height: 80px;		
+	
+		}
+		a#d-1:hover {
+			display: inline-block; border-bottom: none;
+			background: url('cmyk_p.png') no-repeat;
+			transition: all .09s;
+			width: 80px; height: 80px;
+		}
+		a#d-1:active {
+			display: inline-block; border-bottom: none;
+			
+			transition: all .09s;
+			width: 80px; height: 80px;
+		}
+
+
+</style>
+</head>
+
+<head>
+<style type="text/css">
+
+		a#d-2 {
+			display: inline-block; border-bottom: none;
+			background: url('r.png') no-repeat;
+			width: 80px; height: 80px;		
+	
+		}
+		a#d-2:hover{
+			display: inline-block; border-bottom: none;
+			background: url('cmyk_r.png') no-repeat;
+			transition: all .09s;
+			width: 80px; height: 80px;
+		}
+		a#d-2:active {
+			display: inline-block; border-bottom: none;
+			transition: all .09s;
+			width: 80px; height: 80px;
+		}
+</style>
+
+<style type="text/css">
+		a#d-3{
+			display: inline-block; border-bottom: none;
+			background: url('i.png') no-repeat;
+			width: 80px; height: 80px;
+		
+	
+		}
+		a#d-3:hover{
+			display: inline-block; border-bottom: none;
+			background: url('cmyk_i.png') no-repeat;
+			transition: all .09s;
+			width: 80px; height: 80px;
+		}
+</style>
+
+<style type="text/css">
+		a#d-4{
+			display: inline-block; border-bottom: none;
+			background: url('n.png') no-repeat;
+			width: 80px; height: 80px;
+		
+	
+		}
+		a#d-4:hover{
+			display: inline-block; border-bottom: none;
+			background: url('cmyk_n.png') no-repeat;
+			transition: all .09s;
+			width: 80px; height: 80px;
+		}
+</style>		
+
+
+<style type="text/css">
+		a#d-5{
+			display: inline-block; border-bottom: none;
+			background: url('t.png') no-repeat;
+			width: 80px; height: 80px;
+		
+	
+		}
+		a#d-5:hover{
+			display: inline-block; border-bottom: none;
+			background: url('cmyk_t.png') no-repeat;
+			transition: all .09s;
+			width: 80px; height: 80px;
+		}
+</style>
+
+<style type="text/css">
+		a#d-6{
+			display: inline-block; border-bottom: none;
+			background: url('e.png') no-repeat;
+			width: 80px; height: 80px;
+		
+		}
+		a#d-6:hover{
+			display: inline-block; border-bottom: none;
+			background: url('cmyk_e.png') no-repeat;
+			transition: all .09s;
+			width: 80px; height: 80px;
+		
+</style>
+
+	<style type="text/css">
+		a#d-7{
+			display: inline-block; border-bottom: none;
+			background: url('d.png') no-repeat;
+			width: 80px; height: 80px;
+		
+	
+		}
+		a#d-7:hover{
+			display: inline-block; border-bottom: none;
+			background: url('cmyk_d.png') no-repeat;
+			transition: all .09s;
+			width: 80px; height: 80px;
+		}
+</style>
+</head>
+
+
+<body>
+<header>
+  	<h1><div class="wow bounce" transition= "all .3s">
+        <img src="title1.png">
+		</div>
+	</h1>
+</header>
+<br>
+<section>
+	
+	<p>
+	<div class= "ex">
+		<strong>♪♪♪└|∵|┐♪└|∵|┘♪┌|∵|┘♪♪♪</strong><br>
+	</div></div>
+	</p>
+	<div class= "ex">
+		<audio controls style="width: 350px; height: 35px;">
+  		<source src="bensound-psychedelic.mp3" type="audio/mpeg">
+  		</audio>
+  	</div>		
+</section>
+</body>
+
+<body>
+	
+<nav class="sticky"><ol>
+<div class="wow flash" transition= "all .3s">
+	<li>
+		<a href="#cmyk_p.png" id="d-1"></a>
+	</li>
+</div>
+	<li>
+		<a href="#cmyk_r.png" id="d-2"></a>
+	</li>
+<div class="wow flash" transition= "all .3s">
+	<li>
+		<a href="#cmyk_i.png" id="d-3"></a></li>
+</div>
+
+	<li>
+		<a href="#cmyk_n.png" id="d-4"></a></li>
+
+	<li>
+		<a href="#cmyk_t.png" id="d-5"></a></li>
+	<li>
+		<a href="#cmyk_e.png" id="d-6"></a></li>
+
+<div class="wow flash" transition= "all .3s">
+	<li>
+		<a href="#cmyk_d.png" id="d-7"></a></li>
+</div>
+
+</ol></nav>
+</body>
+
+<body>
+
+<section id="cmyk_p.png">
+	<h2>
+	<p>
+		<div class="titleabc">‘인쇄판’을 알아보자</div>
+	</p>
+
+    </h2>
+	<p>
+		<div class= "centeralign">
+		인쇄매체를 좋아해서 자연스레 인쇄소 방문 횟수도 많다.<br>인쇄소에 갈 때마다 종종 듣는 말, <strong><em> “이 사이즈는 판이 없어서 인쇄를 못해요.”</em></strong><br> 나를 좌절하게 만드는 말 대체 판이 뭐길래…</div>
+	</p><br><br>
+	</section>
+
+	<section id="cmyk_r.png">
+	<h2>‘판’을 <br>사용하는 인쇄</h2>
+	<p>
+		<strong>‘인쇄판’</strong>은 평판인쇄에서 본인쇄를 하기 위해 인쇄 기계에 거는 판을 말한다.<br> 이미지는 원고에서 필름으로, 필름에서 인쇄판으로 옮겨가며 재현되고, <br>최종으로 인쇄판이 인쇄기에 걸려 인쇄된다. 
+		<br><br>
+		<div class="centeralign">
+			<br>판을 사용하는 인쇄방식에는 <strong>옵셋(Off set)</strong> 인쇄가 있고, 옵셋인쇄에는 <br><strong>CTP(Computer To Plate)</strong> 와 <strong>CTF(Computer To Film)</strong> 방식이 있다.
+		</div>
+	</p>
+		<img src="plates_ex.jpg">
+	<p>
+			<div class="ex"> <em>(청, 적, 황, 먹 4개의 판)</em></div>
+	</p><br>
+  		<div class="onlycontainer">
+			<div class="onlyitem">
+				<p>
+					<strong>CTP 방식</strong>은 데이터를 필름 출력의 중간 <br>단계를 거치지 않고, 인쇄판에 직접 굽는 방식으로 출력과 소부, 즉 인쇄판 만드는 과정이 동시에 진행된다.</p>	
+			</div>
+		    <div class="onlyitem">
+		    	<p><strong>CTF 방식</strong>은 작업물을 평판스캐너로 4개의 원색을 분해한 후 먹(Black), 청(Cyan), 적(Magenta), 황(Yellow)으로 분판된 필름의 데이터를 인쇄판에 소부하여 인쇄하는 방식이다.</p>
+			</div>
+			
+		</div>
+	<p>
+		<div class="centeralign">
+		CTP 방식은 CTF 방식에 비해 최근에 개발된 방식이기 때문에 판 값 <br>이 비교적 고가이다. 따라서 인쇄가 진행되는 서적류보다 전단지 등 <br>일회성 제품에 주로 사용된다. 오늘 알아볼 방식은<strong> CTF 방식</strong>이다.</div><br>
+		<p>
+			<div class="centeralign">
+		<a href="http://www.wowpress.co.kr/edu/pages/sub03_01.asp" target="_new9">
+		<strong>▷ CTP 방식이 더 알고싶다면? ◁</strong></a>
+		</div></p> 
+	</p><br><br>
+	</section>
+
+	<section id="cmyk_i.png">
+	<h2>
+		빛을 쬐어 부식시키다.<br>“소부하다.”</h2>
+		<img src="details.jpg">
+	<p>
+		<div class="ex"> <i>(좌- 소부그림, 우- 소부정밀)</i></div>
+	</p><br>
+	<p>
+		<strong>‘소부과정’</strong>은 인쇄판을 만드는 과정이다. <br>알루미늄판(PS판)에 감광액을 바른 후 UV램프로 자외선을 노출시킨다. <br>노출이 안된 부분은 판에 고착되고, 노출된 부분은 물에 세척이 되어 <br>탈락시키는 원리이다. 빛 노출 후, 긁힘 방지를 위해 인쇄하기 직전 물로<br> 닦이는 얇은 고무 코팅을 해준다. <br><br>소부가 된 인쇄판은 빛을 쪼이지 않는다면 <strong>하루 이상</strong> 보관 가능하고, 보관할 <br>때도 빛을 쬐지 않도록 <strong>안</strong> 쪽으로 돌려 세워놓는다. 보통 인쇄기계가 돌아가는<br> 하루의 양을 미리 소부하여 놓는다. <br> <br> 예전에는 여러 과정을 수작업으로 했지만, 요즘은 포지티브로 필름을 떠오면 <br> 미리 일정한 두께의 감광막을 처리하여 표준화된 <strong>*PS(Pre-sensitized Plate)</strong>판에 <br> 감광시켜 자동 현상기에 걸면 판이 바로 만들어진다. 아래에서 자세한 과정을 알아보자.
+		<div class="etcc">
+		<em><strong><a href="http://printwiki.org/Presensitized_Plate" target="_new"> *PS(Pre-sensitized Plate)판</a></strong><br>
+		사전에 감광층이 도포되어 있는 판재. 평판인쇄의 판재로 널리 사용되고 있다. <br>네거티브형과 포지티브형이 있으며 보통 판재의 지지체로서는 알루미늄이 사용된다.</em></div>
+	</p>
+	</section>
+	<h2>
+		<div class= "titleabc"><a href="https://hyejinjeoneeee.github.io/adetail/" target="_new2"> + 소부과정 자세히 보기</a></div>
+	</h2>
+	</section>
+
+	<section id="cmyk_n.png">
+	<h2>
+		소요시간과 <br>컬러인쇄</h2>
+		<p>
+		인쇄판을 만드는 데 걸리는 <strong>시간</strong>은 <br>① 펀치기로 기계가 물리는 곳에 구멍을 뚫고 ② 감광기에서 노광하여 <br>③ 자동현상기에 넣는 시간 약 <strong>5분</strong> 내외, 4도일 때 <strong>20분</strong> 정도 걸린다. <br> 통수가 많아 1판으로 전량 인쇄가 어려울 때는 같은 판을 여러개 만들어 쓴다. 
+	</p>
+	<p>
+		<img src="c_m_y_k.jpg">
+		<br>
+		<div class="ex"> <em>(왼쪽부터 순서대로 황, 적, 청, 먹색의 잉크)</em></div>
+	</p><br>
+	<p>
+	   <div class="justfyalign">
+	   <strong>컬러인쇄</strong>는 색 교정용의 교정판을 별도로 만들어 교정 후 <br> 인쇄판을 만들게 되므로, 교정판과 인쇄판이 똑같지 않은<br> 경우가 있어, 색교정과 본인쇄와의 차이가 생길 수 있다.</div>
+	</p><br><br>
+    </P>
+	</section>
+<br><br><br>
+	<section id="cmyk_t.png">
+	<h2>
+		인쇄판 종류와 <br>인쇄기계 최대크기
+	</h2>
+		<p>
+		<div class="titleabc"><img src="size.png"></div></p>
+		<p>
+		<div class="ex"><em>(인쇄기별 최대 절수와 크기)</em></div> 
+	</p><br>
+	<p>
+		인쇄판은 인쇄기에 들어갈 수 있는 <strong>최대 크기</strong>대로 결정된다. <br><br> 인쇄기의 <strong>종류</strong>에는 <br>①  46전지 인쇄기, ② 대국전 인쇄기, ③ 국전인쇄기, <br> ④ 4X6 2절 인쇄기, ⑤ 국 2절 인쇄기, ⑥ T 3절 인쇄기, ⑦ 베이비 인쇄기 등이 있다. <br> <br>인쇄기계의 <strong>최대크기</strong>는 주로 <br> ③ 국전 636X939m, ② 대국전 705X1000mm, ① 46전지 788X1091mm 이다.
+	</p><br>
+		<img src="plate4.jpg">
+	<p>
+		<div class="ex"><em>(각각 좌측에 구멍이 있는 색깔별 판의 모습)</em></div> 
+	</p><br>
+		<p>기계마다 종이를 물고 들어가는 폭이 다르기 때문에 정확한<br> <strong>물림폭</strong>을 알고 있어야 인쇄판을 만드는데 실수가 없다. <br>물림쪽에서 얼마나 떨어져 필름을 배치하여 감광해야 하는지 <br>핀을 맞추기 위해 정확한 위치에 기계에 물리도록 <strong>구멍</strong>을 뚫어준다.
+	</p><br><br>
+	</section>
+
+	
+	<div class="bg1">
+	<section id="cmyk_e.png">
+	<h2>
+		마모되기까지 견디는 힘<br>“내쇄력”
+	</h2><br>
+	<p>
+		판이 마모되기까지 견디는 힘을 <strong>내쇄력</strong>이라고 한다. <br>일반적으로 사용하는 PS판은 보통 10만통의 내쇄력을 갖는다. <br><br><strong>반복인쇄</strong>를 할 경우 표면의 감광액이 닳아 소부인쇄의 핵심인 <br> <strong>망점 재현력</strong>이 떨어진다. 따라서 10만통이 넘는 경우에는 여러 벌의 판을 준비한다.<br><br>반복인쇄 뿐 아니라 종이의 <strong>종류</strong>도 내쇄력에 영향을 준다. <br><strong>평활도</strong>가 <strong>낮은</strong> 표면이 거친 용지를 사용할 때는 10만통이 되기 전에 마모되기도 하고, <br>평활도가 <strong>높은</strong> 부드러운 용지를 사용할 때는 10만통이 약간 넘어도 사용 가능하다.
+	</p>
+	<div class="etcc">
+		<em><strong><a href="https://m.blog.naver.com/wow_press/220981494609" target="_new9"> *평활도</a></strong><br>
+		지면의 매끄러운 정도. 인쇄 적성(인쇄에 쓰는 재료들이 갖춰야 할 성질)을 표시하는 정도.</em></div>
+	</section></div><br><br><br><br>
+<br><br>
+<br><br>
+<br><br>
+
+
+<section id="cmyk_d.png">
+	<h2>
+		<div class="titleabc"> 다음 시간에는?</div></h2>
+	<p>
+		<img src="cmyk.gif">
+	</p>
+	<p>
+		<div class= "centeralign">
+			지금까지 인쇄판에 대해 알아보았다. <br>하지만 아직 <strong>‘도구와 기계의 원리: 인쇄편’</strong>은 끝나지 않았다. <br>다음 시간에는 대체 만들어진 판은 어떻게 인쇄가 되는지 <br> <strong>옵셋인쇄</strong>의 원리와 함께 다시 돌아오겠다.
+			<br><br><a href="https://www.youtube.com/watch?v=AyFfj3R0iUM" target="_new7">
+			<strong>▷ 옵셋인쇄의 원리 영상으로 예습하기 ◁</strong></a>
+		</div>
+	</p><br>
+
+	</section>
+	<p>
+		<footer>
+			<br><br><br><br><em><strong>References</strong></em><br>
+			<a href="http://www.bookfriends.co.kr/contents/story_02_b.html" target="_new5">영림프린팅_제판</a><br> 
+			<a href="http://www.zpkorea.co.kr/products/new_products01.htm" target="_new4">지피코리아_옵셋개념</a><br> 
+			<a href="http://hhansom.co.kr/technote7/board.php?board=k7commonsense&config=2&command=body&no=8" target="_new3">도서출판 한솜_출판과정4-제판</a><br> 
+			<a href="https://m.jungle.co.kr/magazine/5377" target="_new2">디자인정글_너희가 인쇄판을 아느냐?</a><br> 
+			<a href="https://m.blog.naver.com/PostView.nhn?blogId=nicebox1&logNo=30016303478&proxyReferer=https%3A%2F%2Fwww.google.com%2F" target="_new6">나이스박스공식블로그_소부비는 무엇입니까?</a><br><br><br><br><br> 
+
+	 <div align="center">Copyright © 2020 HYEJIN all right reserved.</div> 
+	</p>
+	 </footer>
+
+	 <a style="display:scroll;position:fixed;bottom:80px;right:65px; border-bottom: none;" rel="nofollow" href="#" title="Back to Top" style="font-size:2em"><img src="back_to_top.png" style="width: 35px;height: 35px"> </a>
+</body>
+</html>
